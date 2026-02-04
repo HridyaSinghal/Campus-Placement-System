@@ -53,6 +53,7 @@ const AppliedList = () => {
 
   return (
     <>
+    
     <CompanyListCard company={jobsData[0]} />
     <CompanyListCard company={jobsData[1]} />
   

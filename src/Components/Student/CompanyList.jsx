@@ -53,11 +53,15 @@ const data = [
 ];
 
 
+
+
   return (
     <div className='flex flex-wrap justify-center items-start mt-6'>
       {data.map((company) => (
         <CompanyListCard key={company.id} company={company} />
       ))}
+
+
     </div>
   )
 }
