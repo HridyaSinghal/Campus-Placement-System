@@ -16,7 +16,7 @@ createRoot(document.getElementById('root')).render(
 
         <Route path="/student/student-dashboard" element={<StudentDashboard />}>
           <Route path="company-list" element={<CompanyList />} />
-          <Route path="company-list/job-description" element={<JobDesPage />} />
+          <Route path="company-list/job-description/:id" element={<JobDesPage />} />
           <Route path="applied-list" element={<AppliedList />} />
           <Route path="upcoming-session" element={<div>Upcoming Session</div>} />
           <Route path="profile" element={<div>Profile</div>} />
