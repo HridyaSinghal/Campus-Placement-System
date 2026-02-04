@@ -3,16 +3,15 @@ import CompanyListCard from '../CompanyListCard'
 
 const CompanyList = () => {
   return (
-    <React.Fragment>
-    <CompanyListCard />
-        <CompanyListCard />
-    <CompanyListCard />
-    <CompanyListCard />
-    <CompanyListCard />
-    <CompanyListCard />
-    <CompanyListCard />
-
-    </React.Fragment>
+    <div className='flex flex-wrap justify-center items-start mt-6'>
+      <CompanyListCard />
+      <CompanyListCard />
+      <CompanyListCard />
+      <CompanyListCard />
+      <CompanyListCard />
+      <CompanyListCard />
+      <CompanyListCard />
+    </div>
   )
 }
 

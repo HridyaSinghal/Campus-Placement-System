@@ -9,11 +9,11 @@ const StudentNav = () => {
         <img className="h-22 w-70" src="https://jimsrohini.org/assets2025/images/logo/logo.png" alt="" />
       </div>
       <div className='flex gap-8 pr-10 text-lg font-medium'>
-        <Link to="company-list">Company List</Link>
-                <Link to="applied-list">Applied List</Link>
-        <Link to="upcoming-session">Upcoming Session</Link>
-        <Link to="profile">Profile</Link>
-        <Link to="logout">Logout</Link>
+        <Link to="/student/student-dashboard/company-list">Company List</Link>
+        <Link to="/student/student-dashboard/applied-list">Applied List</Link>
+        <Link to="/student/student-dashboard/upcoming-session">Upcoming Session</Link>
+        <Link to="/student/student-dashboard/profile">Profile</Link>
+        <Link to="/student/student-dashboard/logout">Logout</Link>
       </div>
     </div>
     </>
